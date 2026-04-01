@@ -130,7 +130,7 @@ lifeline-ai/  (repo: Silence)
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Silence.git
+git clone https://github.com/rajmachawal-py/Silence.git
 cd Silence
 ```
 
