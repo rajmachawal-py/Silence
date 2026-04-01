@@ -4,4 +4,4 @@ class PatientInput(BaseModel):
     name: str
     age: int
     symptoms: str
-    duration_hours: int  # ✅ changed from duration: str to duration_hours: int
+    duration_hours: int  # ← must be int not str
