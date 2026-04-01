@@ -1,21 +1,22 @@
 export default function PriorityBadge({ level }) {
-  const styles = {
-    CRITICAL: "bg-red-500 text-white",
-    URGENT:   "bg-orange-500 text-white",
-    NORMAL:   "bg-yellow-400 text-black",
-    LOW:      "bg-green-500 text-white",
+  const icons = {
+    CRITICAL: "⬤",
+    URGENT: "⬤",
+    NORMAL: "⬤",
+    LOW: "⬤",
   };
 
-  const icons = {
-    CRITICAL: "🔴",
-    URGENT:   "🟠",
-    NORMAL:   "🟡",
-    LOW:      "🟢",
+  const classMap = {
+    CRITICAL: "badge badge-critical",
+    URGENT: "badge badge-urgent",
+    NORMAL: "badge badge-normal",
+    LOW: "badge badge-low",
   };
 
   return (
-    <div className={`inline-block px-6 py-2 rounded-full text-lg font-bold ${styles[level]}`}>
-      {icons[level]} {level}
-    </div>
+    <span className={classMap[level] || "badge"}>
+      <span style={{ fontSize: "0.6rem" }}>{icons[level]}</span>
+      {level}
+    </span>
   );
 }
