@@ -130,7 +130,7 @@ lifeline-ai/  (repo: Silence)
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/rajmachawal-py/Silence.git
+git clone https://github.com/your-username/Silence.git
 cd Silence
 ```
 
@@ -287,6 +287,15 @@ The interface uses a **dark medical theme** with a deep navy base (`#040d14`) an
 - [ ] n8n automation workflows (SMS/WhatsApp notifications to patients)
 - [ ] Patient history and discharge tracking
 - [ ] Admin authentication for the nurse dashboard
+
+---
+
+## Collaborators
+
+| Avatar | Username | Role |
+|---|---|---|
+| <img src="https://github.com/DivijTyagi13.png" width="40" height="40" style="border-radius:50%"/> | [DivijTyagi13](https://github.com/DivijTyagi13) | Collaborator |
+| <img src="https://github.com/Tarak-D.png" width="40" height="40" style="border-radius:50%"/> | [Tarak-D](https://github.com/Tarak-D) | Collaborator |
 
 ---
 
