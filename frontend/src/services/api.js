@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://lifeline-ai-backend-production.up.railway.app/";  // ✅ changed from localhost to 127.0.0.1
+const API = "https://lifeline-ai-backend-production.up.railway.app/api";  // ✅ no trailing slash, added /api
 
 export const submitTriage = async (data) => {
   try {
