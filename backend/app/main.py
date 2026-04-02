@@ -23,7 +23,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://your-app-name.vercel.app",  # add after Vercel deploy
+        "https://silence-phi.vercel.app",  # ✅ your Vercel URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
