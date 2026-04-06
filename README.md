@@ -141,8 +141,15 @@ lifeline-ai/  (repo: Silence)
 
 ### 1. Clone the Repository
 
+**Option A — Clone from rajmachawal-py (main repo):**
 ```bash
 git clone https://github.com/rajmachawal-py/Silence.git
+cd Silence
+```
+
+**Option B — Clone from Tarak-D (collaborator mirror):**
+```bash
+git clone https://github.com/Tarak-D/Silence.git
 cd Silence
 ```
 
